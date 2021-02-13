@@ -65,5 +65,9 @@
     function get_import($file){
         include $file;
     }
+
+    function python($file){
+        shell_exec("python $file");
+    }
       
 ?>
